@@ -2,6 +2,7 @@
 @plugin "daisyui";
 *{
       font-family: "Poppins", sans-serif;
+      
 
 }
 
@@ -12,10 +13,14 @@
 .ct{
     color:#4b5966;
 }
-.bcp{
+.bgp{
     background-color: #5caf90;
 }
 .ts{
     color:#4b5966;
     font-size: 14px;
+}
+body{
+    background:#ffffff;
+    
 }

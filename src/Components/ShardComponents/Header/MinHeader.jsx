@@ -6,11 +6,11 @@ import { BiShoppingBag } from 'react-icons/bi'
 const MinHeader = () => {
   return (
     <div className='bg-white'>
-      <div className='flex items-center justify-between container mx-auto px-24'>
+      <div className='flex items-center justify-between py-1 container mx-auto px-24'>
         <img className='w-22' src={nahidLogo} alt="" />
         <div>
-<label className="input outline-none">
-  <svg className="h-[1.5em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<label className="input outline-none translate-x-28 w-120">
+  <svg className="h-[2em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <g
       strokeLinejoin="round"
       strokeLinecap="round"
@@ -22,7 +22,7 @@ const MinHeader = () => {
       <path d="m21 21-4.3-4.3"></path>
     </g>
   </svg>
-  <input type="search " className='pr-48' required placeholder="Search" />
+  <input type="search " className='pr-54 text-white' required placeholder="Search . . . " />
 </label>
         </div>
         <div className='flex items-center gap-5'>
@@ -36,8 +36,8 @@ const MinHeader = () => {
                  <div className='flex items-center gap-1'>
             <BiShoppingBag  className='text-black text-2xl'/>
             <div>
-              <p className='text-black ct text-xs'>Account</p>
-              <p className='text-black ts'>Login</p>
+              <p className='text-black ct text-xs'>Cart</p>
+              <p className='text-black ts'>LOGIN</p>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Root = () => {
     <div>
     <Header></Header>
      <Outlet></Outlet>
-     <footer>Footer</footer>
+     <footer className='text-black'>Footer</footer>
     </div>
   )
 }
