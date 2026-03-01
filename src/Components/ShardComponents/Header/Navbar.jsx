@@ -1,6 +1,5 @@
 import React from "react";
-import { FiShoppingCart } from "react-icons/fi";
-import { IoLocationSharp } from "react-icons/io5";
+import { FaShoppingCart } from "react-icons/fa";
 import { TbCategory } from "react-icons/tb";
 import { NavLink } from "react-router";
 
@@ -20,7 +19,7 @@ const Navbar = () => {
           <NavLink className={({isActive}) => isActive? `cp` : ``} to="/contact">Contact</NavLink>
         </div>
              <div className="flex items-center gap-2 bgp text-white py-2 px-6 rounded-md">
-        <FiShoppingCart />
+        <FaShoppingCart />
           <p className="">Shop Now</p>
         </div>
       </div>

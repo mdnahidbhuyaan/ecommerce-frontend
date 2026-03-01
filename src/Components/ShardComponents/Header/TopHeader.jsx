@@ -5,7 +5,7 @@ import { PiWhatsappLogo } from 'react-icons/pi';
 
 const TopHeader = () => {
   return (
-    <div className='bg-[#f8f8fb] py-2'>
+    <div className='bg-[#ececf0] py-2 shadow-4xl'>
      <div className='flex justify-between items-center container mx-auto px-24'>
               <div className='flex items-center gap-12 ct'>
         <div className='flex items-center gap-2'>
