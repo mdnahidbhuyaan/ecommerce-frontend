@@ -1,12 +1,6 @@
-import React, { useState,useEffect } from 'react'
-
+import useData from '../../../Hooks/useData'
 const HomeCategory = () => {
-    const [categorys,setCategory] = useState([])
-    useEffect(()=>{
-  fetch("category.json")
-  .then(res=>res.json())
-  .then(data=>setCategory(data))
-    },[])
+const {categorys} = useData()
   return (
     <div className='container mx-auto px-24'>
       <div className='flex justify-center gap-18'>
