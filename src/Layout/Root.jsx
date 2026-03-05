@@ -4,7 +4,7 @@ import Header from '../Components/ShardComponents/Header/Header'
 
 const Root = () => {
   return (
-    <div>
+    <div className='bg-white'>
     <Header></Header>
      <Outlet></Outlet>
      <footer className='text-black'>Footer</footer>
