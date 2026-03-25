@@ -6,6 +6,7 @@ const App = () => {
       App
      
       <p>hello</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius repudiandae ut harum sequi ipsum adipisci voluptatum animi culpa omnis corrupti.</p>
     
 
 
